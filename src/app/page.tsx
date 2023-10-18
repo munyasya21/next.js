@@ -1,13 +1,18 @@
+import Image from 'next/image'
+
+
 export default function Home() {
   return (
    
        <section>
           <div>
         <header>
-          <div className="flex-1 text-2xl font-bold mt-9 justify-between w-full  inline-flex items-center border-b-2 border-transparent px-1 pt-1 hover:border-gray-300 hover:text-gray-700  ">
+          <div className="flex-1 text-2xl font-bold mt-9  gap-4 w-full  inline-flex items-center  border-transparent  pt-1 hover:border-gray-300 hover:text-gray-700  ">
           <h1>
             TOREX
           </h1>
+          </div>
+          <div className=" flex-1 text-2xl font-bold pl-[1500px] text-left mt-2  gap-4 w-full  inline-flex items-center  border-transparent  pt-1 hover:border-gray-300 hover:text-gray-700 ">
           <div>
             Contact Us
           </div>
@@ -40,8 +45,17 @@ export default function Home() {
                 Talk To Us
               </button>
             </div>
-            
+            <div>
+            <Image
+      src="/1pic.jpg"
+      width={500}
+      height={500}
+      alt=""
+      
+    />
+    </div>
         </div>
+        
         <section>
           <div>
 
@@ -50,6 +64,6 @@ export default function Home() {
        </section>
 
        
-     
-  )
-}
+)
+}  
+
