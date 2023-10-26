@@ -12,10 +12,8 @@ export default function Home() {
                   <h1>TOREX</h1>
                 </div>
                 <div className="">
-                  <button className=" px-3 py-3 rounded-xl border border-[bg-Color-14] shadow-sm  bg-Foundation   whitespace-nowrap text-Color-18 font-medium text-base tracking-[-0.2px]">
-                    <div>Log In</div>
-                  </button>
-                  <button className=" px-3 py-3 rounded-xl border border-[bg-Color-14] shadow-sm  bg-Foundation   whitespace-nowrap text-Color-18 font-medium text-base tracking-[-0.2px]">
+                  
+                  <button className=" px-4 py-3 rounded-xl border border-[bg-Color-14] shadow-sm  bg-Foundation   whitespace-nowrap text-Color-18 font-medium text-base tracking-[-0.2px]">
                     <div>Sign Up</div>
                   </button>
                   <button className=" px-3 py-3 rounded-xl border border-[bg-Color-14] shadow-sm  bg-Foundation   whitespace-nowrap text-Color-18 font-medium text-base tracking-[-0.2px]">
@@ -26,8 +24,8 @@ export default function Home() {
             </div>
           </div>
         </header>
-
-        <div className=" text-center">
+     
+        <div className=" text-center ">
           <h2 className=" font-extrabold text-[90px] mt-[200px] ml-[110px] leading-[100px] tracking-[-1.6px]">
             A Class Of
             <br />
@@ -48,27 +46,40 @@ export default function Home() {
             SHOP NOW
           </button>
         </div>
-        <div className=" lg:flex  justify-center w-full  h-auto  hidden pt-[200px]   rounded-md  p-2">
-          <div className=" pr-5">
-            <Image src="/1pic.jpg" width={700} height={100} alt="" />
-          </div>
-          <div className=" pr-5">
-            <Image src="/2pic.jpg" width={700} height={100} alt="" />
-          </div>
-          <div className="pr-5">
-            <Image src="/3pic.jpg" width={700} height={100} alt="" />
-          </div>
-          <div className=" pr-5">
-            <Image src="/4pic.jpg" width={700} height={100} alt="" />
-          </div>
-          <div>
-            <Image src="/5pic.jpg" width={700} height={100} alt="" />
-          </div>
-        </div>
+  
       </div>
 
       <section>
-        <div></div>
+        <div className="  pt-[500px] ">
+          <div className=" text-center">
+            <h2 className=" font-bold text-[60px] ">
+             PRODUCT CATEGORIES
+            </h2>
+          </div>
+
+        <div className=" lg:flex  justify-center w-full  h-auto  hidden    rounded-md  p-2">
+          <div className=" pr-5">
+            <Image src="/1pic.jpg" width={700} height={100} alt="" />
+            <h3>WOMENS WEAR</h3>
+          </div>
+          <div className=" pr-5">
+            <Image src="/2pic.jpg" width={700} height={100} alt="" />
+            <h3>PERFUME</h3>
+          </div>
+          <div className="pr-5">
+            <Image src="/7pic.jpg" width={700} height={100} alt="" />
+            <h3>SHOE WEAR</h3>
+          </div>
+          <div className=" pr-5">
+            <Image src="/4pic.jpg" width={700} height={100} alt="" />
+            <h3>JEWELRY</h3>
+          </div>
+          <div>
+            <Image src="/5pic.jpg" width={700} height={100} alt="" />
+            <h3>MENS WEAR</h3>
+          </div>
+        </div>
+        </div>
       </section>
     </section>
   );
